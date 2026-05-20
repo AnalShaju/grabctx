@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Command } from "commander";
 import { parseHTML } from "linkedom";
 import { Readability } from "@mozilla/readability";
