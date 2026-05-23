@@ -1,6 +1,6 @@
 # grabctx
 
-Convert webpages into clean, token-efficient markdown for AI models.
+Convert webpages and PDFs into clean, token-efficient markdown for AI models.
 
 ## Install
 
@@ -11,11 +11,15 @@ npm install -g grabctx
 ## Usage
 
 ```bash
-# Print clean markdown to terminal
+# Convert a webpage
 grabctx https://example.com
 
-# Copy clean markdown to clipboard
+# Convert a PDF
+grabctx ./document.pdf
+
+# Copy output to clipboard
 grabctx https://example.com --copy
+grabctx ./document.pdf --copy
 
 # Get help
 grabctx --help
@@ -26,6 +30,7 @@ grabctx --help
 - Extracts main content from webpages (removes nav, ads, footers)
 - Converts HTML to clean markdown
 - Shows token count before and after
+- Supports PDF files
 - Copy to clipboard with `--copy` flag
 
 ## Limitations
