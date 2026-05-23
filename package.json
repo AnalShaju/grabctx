@@ -1,6 +1,6 @@
 {
   "name": "grabctx",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Convert webpages into clean, token-efficient markdown for AI models",
   "main": "dist/cli.js",
   "bin": {
